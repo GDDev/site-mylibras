@@ -110,7 +110,7 @@ a {
 }
 
 .btn-download:active {
-    transform: scale(90%);
+    transform: scale(.9);
     transition: 3ms ease-in-out;
 }
 
@@ -231,6 +231,7 @@ hr {
     background-color: #FFF;
     border: 1px solid #22638F;
     border-radius: 10px;
+    padding: .8rem;
 }
 
 .form-space {
@@ -261,11 +262,22 @@ hr {
     box-shadow: 0px 0px 3px 1px #1F445C;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
     margin-left: 2.813rem;
 }
 
 .form-company{
     margin-bottom: 5.375rem;
+}
+
+.commerce-register:hover{
+    transform: scale(1.1);
+    transition: 20ms ease-in-out;
+}
+
+.commerce-register:active{
+    transform: scale(.9);
+    transition: 3ms ease-in-out;
 }
 
 /* FOOTER */
