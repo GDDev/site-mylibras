@@ -144,63 +144,99 @@
         </section>
 
         <section id="commerce">
-            <h1>Registrar Comércio</h1>
+            <div class="commerce-left">
+                <h1 class="commerce-title">Registrar Comércio</h1>
+            </div>
+            <div class="commerce-right">
+                <form action="#" method="post">
+                    <h2 class="form-title">Empresa</h2>
+                    <div class="form-company">
+                        <div class="form-row-company">
+                            <div class="form-space">
+                                <label for="company-name" class="form-label">Nome Fantasia:</label>
+                                <input type="text" name="company-name" id="company-name" class="form-input">
+                            </div>
 
-            <form action="#" method="post">
-                <h2 class="blue-background">Empresa</h2>
-                <div class="form-company">
-                    <div class="form-row-company">
-                        <label for="company-name">Nome Fantasia:</label>
-                        <input type="text" name="company-name" id="company-name">
+                            <div class="form-space">
+                                <label for="cnpj" class="form-label">CNPJ:</label>
+                                <input type="text" name="cnpj" id="cnpj" class="form-input">
+                            </div>
 
-                        <label for="cnpj">CNPJ:</label>
-                        <input type="text" name="cnpj" id="cnpj">
+                            <div class="form-space">
+                                <label for="email-company" class="form-label">E-mail:</label>
+                                <input type="text" name="email-company" id="email-company" class="form-input">
+                            </div>
 
-                        <label for="email-company">E-mail:</label>
-                        <input type="text" name="email-company" id="email-company">
+                        </div>
+
+                        <div class="form-row-company">
+                            <div class="form-space">
+                                <label for="state" class="form-label">Estado:</label>
+                                <input type="text" name="state" id="state" class="form-input">
+                            </div>
+
+                            <div class="form-space">
+                                <label for="city" class="form-label">Cidade:</label>
+                                <input type="text" name="city" id="city" class="form-input">
+                            </div>
+
+                            <div class="form-space">
+                                <label for="neigh" class="form-label">Bairro:</label>
+                                <input type="text" name="neigh" id="neigh" class="form-input">
+                            </div>
+
+                        </div>
+
+                        <div class="form-row-company">
+                            <div class="form-space">
+                                <label for="street" class="form-label">Rua:</label>
+                                <input type="text" name="street" id="street" class="form-input">
+                            </div>
+
+                            <div class="form-space">
+                                <label for="number" class="form-label">Número:</label>
+                                <input type="text" name="number" id="number" class="form-input">
+                            </div>
+
+                            <div class="form-space">
+                                <label for="add" class="form-label">Complemento:</label>
+                                <input type="text" name="add" id="add" class="form-input">
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="form-row-company">
-                        <label for="state">Estado:</label>
-                        <input type="text" name="state" id="state">
 
-                        <label for="city">Cidade:</label>
-                        <input type="text" name="city" id="city">
+                    <h2 class="form-title">Proprietário</h2>
+                    <div class="form-owner">
+                        <div class="form-row-owner">
+                            <div class="form-space">
+                                <label for="name" class="form-label">Nome:</label>
+                                <input type="text" name="name" id="name" class="form-input">
+                            </div>
 
-                        <label for="neigh">Bairro:</label>
-                        <input type="text" name="neigh" id="neigh">
+                            <div class="form-space">
+                                <label for="lname" class="form-label">Sobrenome:</label>
+                                <input type="text" name="lname" id="lname" class="form-input">
+                            </div>
+
+                        </div>
+                        <div class="form-row-owner">
+                            <div class="form-space">
+                                <label for="cpf" class="form-label">CPF:</label>
+                                <input type="text" name="cpf" id="cpf" class="form-input">
+                            </div>
+
+                            <div class="form-space">
+                                <label for="email-owner" class="form-label">E-mail:</label>
+                                <input type="text" name="email-owner" id="email-owner" class="form-input">
+                            </div>
+                            <div class="form-space">
+                                <button type="submit" class="commerce-register">REGISTRAR</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-row-company">
-                        <label for="street">Rua:</label>
-                        <input type="text" name="street" id="street">
-
-                        <label for="number">Número:</label>
-                        <input type="text" name="number" id="number">
-
-                        <label for="add">Complemento:</label>
-                        <input type="text" name="add" id="add">
-                    </div>
-                </div>
-
-                <h2 class="blue-background">Proprietário</h2>
-                <div class="form-owner">
-                    <div class="form-row-owner">
-                        <label for="name">Nome:</label>
-                        <input type="text" name="name" id="name">
-
-                        <label for="lname">Sobrenome:</label>
-                        <input type="text" name="lname" id="lname">
-                    </div>
-                    <div class="form-row-owner">
-                        <label for="cpf">CPF:</label>
-                        <input type="text" name="cpf" id="cpf">
-
-                        <label for="email-owner"></label>
-                        <input type="text" name="email-owner" id="email-owner">
-                    </div>
-                </div>
-
-                <button type="submit">REGISTRAR</button>
-            </form>
+                </form>
+            </div>
         </section>
     </main>
 
