@@ -5,7 +5,8 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: -0.005rem;
 }
-a{
+
+a {
     text-decoration: none;
     color: #000;
 }
@@ -22,46 +23,45 @@ a{
     box-shadow: 0px 1px 5px #1F445CB3;
     border-radius: 0px 0px 5px 5px;
     padding: 0 3rem;
-    position: sticky;
+    position: relative;
     z-index: 999;
 }
 
 /* SUBSTITUIR PELA LOGO */
-#logo{
+#logo {
     font-size: 2.25rem;
     font-weight: 700;
     color: #000;
 }
 
-.nav-option{
+/* */
+
+.nav-option {
     text-decoration: none;
     font-size: 0.8rem;
     font-weight: 600;
     color: #13374F;
 }
 
-.nav-option:hover{
+.nav-option:hover {
     color: #000;
 }
 
 
 /* MENU */
-.menu-background{
-    margin-top: -0.875rem;
-    width: 99.2vw;
-    height: 81.9vh;
+.menu-background {
+    width: 100%;
+    height: 100vh;
     z-index: -999;
     position: absolute;
 }
 
-#menu{
+#menu {
     margin-top: -0.875rem;
     padding-top: 0.875rem;
     background-color: #22638FB3;
-    height: 81vh;
+    height: 100vh;
     max-width: 100vw;
-    border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 5px 5px white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,37 +69,37 @@ a{
     z-index: 998;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#menu-title{
+#menu-title {
     font-family: 'Inter', sans-serif;
     font-size: 4.5rem;
     font-weight: 700;
     color: #FFF;
-    margin-top: 18.75rem;
+    margin-top: 15rem;
 }
 
-.menu-phrase{
+.menu-phrase {
     font-size: 1.5rem;
     font-weight: 500;
     color: #FFF;
     margin-top: 1.25rem;
 }
 
-.download{
+.download {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4.063rem;
+    margin-bottom: 15rem;
 }
 
-.btn-download{
+.btn-download {
     height: 4.375rem;
     width: 17.5rem;
     background-color: #FFF;
@@ -109,108 +109,89 @@ a{
     margin-bottom: 1.25rem;
 }
 
-.btn-download:active{
-    transform: scale(90%);
+.btn-download:active {
+    transform: scale(.9);
     transition: 3ms ease-in-out;
 }
 
-.description{
+.description {
     font-size: 1.125rem;
     font-weight: 500;
     color: #FFF;
 }
 
 /* FAQ */
-a.faq-anchor {
-    display: block;
-    position: relative;
-    top: -3.5rem;
-    visibility: hidden;
-}
 
-#faq{
+#faq {
     max-width: 100vw;
-    margin: 5.625rem 20vw 11.7rem 20vw;
+    margin: 5rem 20vw 10rem 20vw;
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
 }
 
-#faq-title{
+#faq-title {
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
     font-weight: 700;
     color: #22638F;
-    margin-bottom: 3.75rem;
+    margin-bottom: 4rem;
 }
 
-.faq-list{
+.faq-list {
     list-style: none;
 }
 
-.question{
+.question {
     margin-bottom: 3.125rem;
     color: #22638F;
 }
 
-.question-title{
+.question-title {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.25rem;
 }
 
-.faq-title{
+.faq-title {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.see{
+.see {
     height: 1.25rem;
     width: 1.25rem;
     cursor: pointer;
 }
 
-.answer{
+.answer {
     font-size: 1.125rem;
     font-weight: 400;
     margin-bottom: 1.25rem;
     display: none;
 }
 
-hr{
+hr {
     border: 0.063rem solid #22638F;
-}
-
-
-footer{
-    text-align: center;
-    background-color: white;
-}
-
-footer p{
-    color:#22638F;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 3rem 0;
 }
 
 /* COMMERCE */
 #commerce {
     max-width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem 9rem 6.25rem 9rem;
+    margin: 0 9rem 10rem 9rem;
 }
 
 .commerce-title {
     font-family: 'Inter', sans-serif;
-    width: 18.813rem;
     font-size: 4rem;
     font-weight: 700;
     color: #22638F;
     text-align: center;
-    margin-right: 1.625rem;
+    margin: 5rem 0 4rem 0;
 }
 
 .commerce-right {
@@ -279,22 +260,32 @@ footer p{
     margin-left: 2.813rem;
 }
 
-.form-company{
+.form-company {
     margin-bottom: 5.375rem;
 }
 
-.commerce-register:hover{
+.commerce-register:hover {
     transform: scale(1.1);
     transition: 20ms ease-in-out;
 }
 
-.commerce-register:active{
+.commerce-register:active {
     transform: scale(.9);
     transition: 3ms ease-in-out;
 }
 
+
+
+
+
+
+
+
+
+
+
 /*SOBRE*/
-.sobre-title{
+.sobre-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,7 +298,7 @@ footer p{
     padding: 1rem 0 0;
 }
 
-.integrantes{
+.integrantes {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -322,6 +313,13 @@ footer p{
 
 
 
+
+
+
+
+
+
+
 /* FOOTER */
 footer {
     bottom: 0;
@@ -331,7 +329,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px 5px 0px 0px;
 }
 
 .rights {
@@ -341,7 +338,16 @@ footer {
     color: #FFF;
 }
 
-h3{
+
+
+
+
+
+
+
+
+
+h3 {
     max-width: 1000px;
     margin: auto;
     padding: 0 2rem;
@@ -351,8 +357,5 @@ h3{
     color: #333;
     font-size: 1.5rem;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif;
 }
-
-
-
