@@ -274,51 +274,112 @@ hr {
     transition: 3ms ease-in-out;
 }
 
+/* ABOUT US */
+.team{
+    max-width: 100vw;
+    height: 100vh;
+    margin-top: -0.875rem;
+    background-color: #35729C;
+    padding: 0.875rem 10vw 10rem 10vw;
+}
 
-
-
-
-
-
-
-
-
-
-/*SOBRE*/
-.sobre-title {
+.title-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+.us-title {
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
     font-weight: 700;
-    color: #22638F;
-    margin-bottom: 3.75rem;
-    padding: 1rem 0 0;
+    color: #FFF;
+    text-align: center;
+    padding-top: 5rem;
+    margin: 0 0 4rem 0;
 }
 
-.integrantes {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+.us-description{
+    max-width: 60vw;
+    font-size: 1.3rem;
     font-weight: 400;
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 2rem 2rem;
+    color: #FFF;
+    text-align: justify;
+}
+
+.members {
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
+    align-items: center;
+    margin: auto;
 }
 
+.member-card{
+    cursor: context-menu;
+    max-width: 15rem;
+    max-height: 20rem;
+    border-radius: 20px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.8rem 1.3rem;
+}
 
+.member-card:hover{
+    transform: scale(1.1);
+    transition: 5ms ease-in-out;
+}
 
+.profile-pic{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
 
+.member-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #22638F;
+    text-align: center;
+    margin-bottom: .3rem;
+}
 
+.occupation{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #22638F;
+    margin-bottom: 1.1rem;
+}
 
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.media{
+    cursor: pointer;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-bottom: 0;
+}
 
+.media:hover{
+    transform: scale(1.1);
+    transition: 3ms ease-in-out;
+}
 
+.media:active{
+    transform: scale(.9);
+    transition: 5ms ease-in-out;
+}
 
+.round{
+    border-radius: 5px;
+    margin-right: .5rem;
+}
 
 /* FOOTER */
 footer {
@@ -336,26 +397,4 @@ footer {
     font-size: 1rem;
     font-weight: 400;
     color: #FFF;
-}
-
-
-
-
-
-
-
-
-
-
-h3 {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #333;
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
 }
