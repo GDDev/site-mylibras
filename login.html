@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myLibras</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="nav-mylibras">
+        <h1 id="logo"><a href="index.html">myLibras</a></h1> <!-- Substituir pela logo -->
+        <nav>
+            <div class="navbar">
+                <a href="index.html" class="nav-option">MENU</a>
+                <a href="perguntas.html" class="nav-option">| PERGUNTAS FREQUENTES</a>
+                <a href="commerce.html" class="nav-option">| REGISTRAR COMÉRCIO</a>
+                <a href="sobre.html" class="nav-option">| SOBRE NÓS</a>
+                <a href="login.html" class="nav-btn">ENTRAR</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="login-register">
+            <div class="title-options">
+                <h1 id="signin" class="login-option">Entrar</h1>
+                <h1>|</h1>
+                <h1 id="add" class="login-option">Cadastrar</h1>
+            </div>
+            <div class="box">
+                <form action="#" method="post" id="login" class="focus">
+                    <div class="login-background">
+                        <div class="login-space">
+                            <label for="username" class="login-txt">Nome de usuário:</label>
+                            <input type="text" name="username" id="username" class="login-input">
+                        </div>
+                        <div class="login-space">
+                            <label for="password" class="login-txt">Senha:</label>
+                            <input type="password" name="password" id="password" class="login-input">
+                        </div>
+                        <div class="login-space">
+                            <button type="submit" class="login-btn">Entrar</button>
+                        </div>
+                    </div>
+                </form>
+                <form action="#" method="post" id="register">
+                    <div class="login-background">
+                        <div class="login-space">
+                            <label for="username" class="login-txt">Nome de usuário:</label>
+                            <input type="text" name="username" id="username" class="login-input">
+                        </div>
+                        <div class="login-space">
+                            <label for="password" class="login-txt">Senha:</label>
+                            <input type="password" name="password" id="password" class="login-input">
+                        </div>
+                        <div class="login-space">
+                            <label for="confirm-password" class="login-txt">Confirme sua senha:</label>
+                            <input type="password" name="confirm-password" id="confirm-password" class="login-input">
+                        </div>
+                        <div class="login-space">
+                            <button type="submit" class="login-btn">Cadastrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="rights">Todos os direitos reservados ® - G09 Systems</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
