@@ -177,7 +177,7 @@ a {
     font-weight: 500;
 }
 
-.see, .less {
+.see img{
     height: 1.25rem;
     width: 1.25rem;
     cursor: pointer;
